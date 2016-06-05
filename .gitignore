@@ -11,18 +11,16 @@
 *.userprefs
 
 # Build results
-play_me/
-/play_me/[Dd]ebug/
+
 /play_me/[Dd]ebug/*
-/play_me/[Rr]elease/
 /play_me/[Rr]elease/*
 
-!/[Dd]ebug/
+
 /[Dd]ebug/*
 !/[Dd]ebug/freeglut.dll
 !/[Dd]ebug/glew32.dll
 
-!/[Rr]elease/
+
 /[Rr]elease/*
 !/[Rr]elease/freeglut.dll
 !/[Rr]elease/glew32.dll
