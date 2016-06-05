@@ -12,10 +12,10 @@
 
 # Build results
 
-/play_me/[Dd]ebug/
-/play_me/[Dd]ebug/*
-/play_me/[Rr]elease/
-/play_me/[Rr]elease/*
+play_me/[Dd]ebug/
+play_me/[Dd]ebug/*
+play_me/[Rr]elease/
+play_me/[Rr]elease/*
 
 !/[Dd]ebug/
 /[Dd]ebug/*.*
