@@ -12,6 +12,11 @@
 
 # Build results
 
+/play_me/[Dd]ebug/
+/play_me/[Dd]ebug/*
+/play_me/[Rr]elease/
+/play_me/[Rr]elease/*
+
 !/[Dd]ebug/
 /[Dd]ebug/*
 !/[Dd]ebug/freeglut.dll
@@ -22,10 +27,7 @@
 !/[Rr]elease/freeglut.dll
 !/[Rr]elease/glew32.dll
 
-/play_me/[Dd]ebug/
-/play_me/[Dd]ebug/*
-/play_me/[Rr]elease/
-/play_me/[Rr]elease/*
+
 
 x64/
 x86/
