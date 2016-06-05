@@ -47,8 +47,8 @@ ipch/
 *.so
 *.dylib
 *.dll
-!freeglut.dll
-!glew32.dll
+!/**/freeglut.dll
+!/**/glew32.dll
 
 # Fortran module files
 *.mod
