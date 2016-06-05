@@ -12,8 +12,8 @@
 
 # Build results
 
-/play_me/[Dd]ebug/*
-/play_me/[Rr]elease/*
+/play_me/[Dd]ebug/*.tlog
+/play_me/[Rr]elease/*.tlog
 
 
 /[Dd]ebug/*
