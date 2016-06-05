@@ -1,0 +1,33 @@
+﻿Build started 04.06.2016 22:21:49.
+     1>Project "D:\Game\play_me\play_me\play_me.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\SFML-2.3.1\include" /ID:\freeglut\include /I"D:\glew-1.13.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt cat.cpp
+         cat.cpp
+     1>d:\game\play_me\play_me\math_3d.h(161): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\game\play_me\play_me\math_3d.h(162): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\game\play_me\play_me\math_3d.h(170): warning C4005: 'FOR' : macro redefinition
+                 d:\game\play_me\play_me\fadma.h(25) : see previous definition of 'FOR'
+     1>d:\game\play_me\play_me\cat.cpp(12): error C2143: syntax error : missing ';' before '.'
+     1>d:\game\play_me\play_me\cat.cpp(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\game\play_me\play_me\cat.cpp(13): error C2059: syntax error : '}'
+     1>d:\game\play_me\play_me\cat.cpp(13): error C2143: syntax error : missing ';' before '}'
+     1>d:\game\play_me\play_me\cat.cpp(15): error C2059: syntax error : '}'
+     1>d:\game\play_me\play_me\cat.cpp(15): error C2143: syntax error : missing ';' before '}'
+     1>d:\game\play_me\play_me\cat.cpp(22): error C2143: syntax error : missing ';' before '{'
+     1>d:\game\play_me\play_me\cat.cpp(22): error C2447: '{' : missing function header (old-style formal list?)
+     1>d:\game\play_me\play_me\cat.cpp(38): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\game\play_me\play_me\cat.cpp(47): error C2017: illegal escape sequence
+     1>d:\game\play_me\play_me\cat.cpp(59): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\game\play_me\play_me\cat.cpp(75): error C2017: illegal escape sequence
+     1>d:\game\play_me\play_me\cat.cpp(101): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\game\play_me\play_me\cat.cpp(103): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\game\play_me\play_me\cat.cpp(167): error C2601: 'cat::clean' : local function definitions are illegal
+                 d:\game\play_me\play_me\cat.cpp(30): this line contains a '{' which has not yet been matched
+     1>d:\game\play_me\play_me\cat.cpp(171): error C2601: 'cat::load' : local function definitions are illegal
+                 d:\game\play_me\play_me\cat.cpp(30): this line contains a '{' which has not yet been matched
+     1>d:\game\play_me\play_me\cat.cpp(187): fatal error C1075: end of file found before the left brace '{' at 'd:\game\play_me\play_me\cat.cpp(30)' was matched
+     1>Done Building Project "D:\Game\play_me\play_me\play_me.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.47

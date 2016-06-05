@@ -11,10 +11,18 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+
+!/[Dd]ebug/
+/[Dd]ebug/*
+!/[Dd]ebug/freeglut.dll
+!/[Dd]ebug/glew32.dll
+
+!/[Rr]elease/
+/[Rr]elease/*
+!/[Rr]elease/freeglut.dll
+!/[Rr]elease/glew32.dll
+
+
 x64/
 x86/
 bld/
@@ -47,8 +55,8 @@ ipch/
 *.so
 *.dylib
 *.dll
-!/**/freeglut.dll
-!/**/glew32.dll
+!freeglut.dll
+!glew32.dll
 
 # Fortran module files
 *.mod
